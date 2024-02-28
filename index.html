@@ -8,6 +8,36 @@
 <body class="bg-teal-300">
  
   <h1 class="font-bold text-6xl">HEATHER PAINTS</h1>
+  <style>
+    .small-image {
+        max-width: 150px;
+        max-height: 150px;
+        margin-right: 10px; /* Adjust the margin between images */
+        margin-bottom: 10px; /* Add margin to create rows */
+    }
+
+    .image-container {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap into multiple lines */
+    }
+
+    .image-container > * {
+        flex: 1 0 50%; /* Each item takes half of the container's width */
+    }
+
+    .side-by-side {
+        margin-right: 10px; /* Adjust the margin between images */
+    }
+</style>
+
+<div class="image-container">
+    <img src="IMG_0817.jpg" class="small-image">
+    <img src="IMG_9069.jpg" class="small-image">
+    <img src="IMG_9068.jpg" class="small-image">
+    <img src="IMG_9066.jpg" class="small-image">
+    <img src="IMG_9067.jpg" class="small-image">
+</div>
+
   <br><br/>
  <style>
     .small-image {
